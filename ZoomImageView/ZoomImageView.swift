@@ -31,7 +31,7 @@ open class ZoomImageView : UIScrollView, UIScrollViewDelegate {
 
   // MARK: - Properties
 
-  private let imageView: UIImageView = {
+  public let imageView: UIImageView = {
     let imageView = UIImageView()
     imageView.layer.allowsEdgeAntialiasing = true
     return imageView
